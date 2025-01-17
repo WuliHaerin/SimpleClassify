@@ -222,7 +222,7 @@ public class GameplayManager : MonoBehaviour
     public void ShowRewardedAdd()
     {
 
-        AdManager.ShowVideoAd("192if3b93qo6991ed0",
+        AdManager.ShowVideoAd("2rt7k6aseof16381cf",
             (bol) =>
             {
                 if (bol)
@@ -282,10 +282,9 @@ public class GameplayManager : MonoBehaviour
 
     public virtual void EndGame()
     {
-        AdManager.ShowInterstitialAd("1lcaf5895d5l1293dc",
+        AdManager.ShowInterstitialAd("1gni6eccsqwb774818",
         () =>
         {
-            Debug.LogError("--插屏广告完成--");
 
         },
         (it, str) =>
@@ -300,10 +299,9 @@ public class GameplayManager : MonoBehaviour
         uiManager.ShowScreen(Screens.GameOver);
 
 
-        AdManager.ShowInterstitialAd("1lcaf5895d5l1293dc",
+        AdManager.ShowInterstitialAd("1gni6eccsqwb774818",
         () =>
         {
-            Debug.LogError("--插屏广告完成--");
 
         },
         (it, str) =>
